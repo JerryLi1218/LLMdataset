@@ -1,0 +1,148 @@
+hello
+hello
+hello
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 5, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+time.struct_time(tm_year=2023, tm_mon=1, tm_mday=27, tm_hour=16, tm_min=7, tm_sec=1, tm_wday=4, tm_yday=27, tm_isdst=0)
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+time.struct_time(tm_year=2023, tm_mon=1, tm_mday=27, tm_hour=16, tm_min=8, tm_sec=1, tm_wday=4, tm_yday=27, tm_isdst=0)
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+time.struct_time(tm_year=2023, tm_mon=1, tm_mday=27, tm_hour=16, tm_min=9, tm_sec=1, tm_wday=4, tm_yday=27, tm_isdst=0)
+李典 张郃 
+hello
+[('张郃',), ('李典',)]
+[]
+time.struct_time(tm_year=2023, tm_mon=1, tm_mday=27, tm_hour=16, tm_min=10, tm_sec=1, tm_wday=4, tm_yday=27, tm_isdst=0)
+李典 张郃 
+hello
+邮件发送成功
+hello
+邮件发送成功
+hello
+邮件发送成功
+ERROR
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 25, in <module>
+    mycursor.execute("SELECT name, birthday FROM app01_userbirthday WHERE isLunar=2")
+NameError: name 'mycursor' is not defined
+ERROR
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 25, in <module>
+    mycursor.execute("SELECT name, birthday FROM app01_userbirthday WHERE isLunar=2")
+NameError: name 'mycursor' is not defined
+ERROR
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 25, in <module>
+    mycursor.execute("SELECT name, birthday FROM app01_userbirthday WHERE isLunar=2")
+NameError: name 'mycursor' is not defined
+ERROR
+Traceback (most recent call last):
+  File "/home/jerry_li_1218/code2023/2023python/lab01/lab01/app01/checkBirthday.py", line 25, in <module>
+    mycursor.execute("SELECT name, birthday FROM app01_userbirthday WHERE isLunar=2")
+NameError: name 'mycursor' is not defined

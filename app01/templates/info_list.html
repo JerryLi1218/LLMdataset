@@ -1,0 +1,83 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+
+    <div>
+        <div class="container">
+            <div style="margin-bottom: 10px;">
+                <a class="btn btn-success" href="http://127.0.0.1:8000/info/add/">
+                    <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+                    新建账号
+                </a>
+            </div>
+
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">
+                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+                    用户列表
+                </div>
+
+
+                <!-- Table -->
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>用户名</th>
+                            <th>密码</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for obj in data_list %}
+                        <tr>
+                            <td>{{ obj.id }}</td>
+                            <td>{{ obj.name }}</td>
+                            <td>{{ obj.password }}</td>
+                            <td>
+                                <a class="btn btn-primary btn-xs"
+                                    href="http://127.0.0.1:8000/info/{{ obj.id }}/edit/">编辑</a>
+                                <a class="btn btn-danger btn-xs"
+                                    href="http://127.0.0.1:8000/info/delete/?nid={{obj.id}}">删除</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!--
+    <h1 align="center">INFO_列表</h1>
+
+    <table border="1" align="center">
+        <a href="http://127.0.0.1:8000/info/add/" align="center">添加</a>
+        <thead>
+        <tr>
+            <th> id </th>
+            <th> user_name </th>
+            <th> password </th>
+            <th> operate </th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for obj in data_list %}
+            <tr>
+                <td>{{ obj.id }}</td>
+                <td>{{ obj.name }}</td>
+                <td>{{ obj.password }}</td>
+                <td>
+                <a href="http://127.0.0.1:8000/info/delete/?nid={{obj.id}}"> delete </a>
+                </td>
+                
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+-->
+
+{% endblock %}
